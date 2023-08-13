@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+header img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 15px;
+
+}
+nav ul {
+    list-style: none;
+    margin-top: 1px;
+    position: absolute;
+    float: left;
+    right: 50px;
+}
+
+nav li {
+    display: inline;
+    padding-right: 50px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+h2{
+    font-weight: bold;
+    text-align: center;
+}
+
+p{
+    color:darkgray;
+    text-align: center;
+}
+#f2{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+p2{
+    color:darkgray;
+    text-align: center;
+}
+.images{
+    background-position: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+#click{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 700px;
+    top: 800px;
+}
+
+#click a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.blog-creation, .article-publishing {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    margin-top: 0;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+}
